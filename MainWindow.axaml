@@ -1,0 +1,19 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="GRTranslator.MainWindow"
+        Title="Alphaver Gamerunner Translator">
+
+	<StackPanel>
+		<Label Content="abd3 base32 decode"/>
+		<TextBox Watermark="put abd3 output here" Name="abd3base32input" Padding="20" KeyUp="Abd3base32input_KeyPressUp"/>
+		<TextBox Watermark="decoded abd3 output goes here" Name="abd3base32output" IsReadOnly="True" Padding="20"/>
+		<Label Content="plural hex decode"/>
+		<TextBox Watermark="put plural output here" Name="pluralhexinput" Padding="20" KeyUp="Pluralhexinput_KeyPressUp"/>
+		<TextBox Watermark="decoded plural output goes here" Name="pluralhexoutput" IsReadOnly="True" Padding="20"/>
+		
+	</StackPanel>
+
+</Window>
